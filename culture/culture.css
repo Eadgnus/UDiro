@@ -71,7 +71,8 @@ header>ul>li {
 /* 헤더 끝 */
 
 /* 문화정보 - 서울의 문화를 더 알고 싶다면 시작 */
-.backgroundimage {
+.backgroundimage
+{
     background: url(./sub_bg2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,22 +88,22 @@ header>ul>li {
 
 .mainimagetext1 {
     font-size: 2em;
-    text-align: center;
+    text-align:center; 
     position: relative;
-    top: 60px;
+    top:60px;
     display: block;
     box-sizing: border-box;
-    color: white;
+    color:white;
 }
 
 .mainimagetext2 {
     font-size: 1em;
-    text-align: center;
+    text-align:center;
     top: 80px;
     position: relative;
     box-sizing: border-box;
-    font-style: italic;
-    color: white;
+    font-style:italic;
+    color:white;
 }
 
 /* 문화정보 - 서울의 문화를 더 알고 싶다면 끝 */
@@ -112,17 +113,17 @@ header>ul>li {
 /* 지역구간 시작 */
 
 td {
-    border: 2px solid grey;
-    color: black;
+    border:2px solid grey;
+    color:black;
     text-align: center;
 }
 
 table {
-    width: 100%;
+    width:100%;
 }
 
-#local {
-    color: black;
+#local  {
+    color:black;
 }
 
 .needblack {
@@ -132,94 +133,94 @@ table {
 
 .lengthlarger {
     width: 140px;
-    height: 60px;
+    height:60px;
     background-color: #dddddd;
     border: 1.5px solid black;
     font-weight: 500;
 }
 
 .tagsize {
-    float: left;
+    float:left;
     box-sizing: none;
     margin: 0px 30px;
-    width: 16%;
-    height: 35px;
+    width:16%;
+    height:35px;
 }
 
 .regionsearch {
-    float: left;
+    float:left;
     box-sizing: none;
     margin: 0px 5px;
     padding: 0px 0px 0px 3px;
     width: 55%;
     height: 35px;
-    font-size: 15px;
+    font-size:15px;
 }
 
 #searchbar1 {
-    float: right;
+    float:right;
     background-color: #eeeeee;
-    width: 120px;
+    width:120px;
     height: 35px;
     margin: 0 10px 0 0;
     border: 1.5px solid black;
 }
 
 .dash {
-    font-size: 30px;
-    color: black;
+    font-size:30px;
+    color:black;
 }
 
 /* 지역 구간 끝 */
 
-/* 기간 구간 시작 */
+/* 기간 구간 시작 */ 
 #datepicker01 {
-    float: left;
-    width: 250px;
-    height: 30px;
+    float:left;
+    width:250px;
+    height:30px;
     text-align: center;
     margin: 7px 0 0 55px;
     background-color: #dddddd;
 }
 
 #datepicker02 {
-    float: right;
-    width: 250px;
-    height: 30px;
+    float:right;
+    width:250px;
+    height:30px;
     text-align: center;
     margin: 7px 55px 0 0;
     background-color: #dddddd;
 }
 
-/* 기간 구간 끝 */
+/* 기간 구간 끝 */ 
 
 /* 분야,검색 구간 시작 */
 .genre {
-    color: black;
+    color:black;
 }
 
 .tagsize2 {
-    float: left;
+    float:left;
     box-sizing: none;
     margin: 0px 10px 0 28px;
-    width: 120px;
-    height: 35px;
-    color: black;
+    width:120px;
+    height:35px;
+    color:black;
 }
 
 .genresearch {
-    float: left;
+    float:left;
     box-sizing: none;
     margin: 0px 3px;
     width: 40%;
     height: 35px;
-    font-size: 15px;
+    font-size:15px;
 }
 
 #searchbar2 {
-    float: right;
+    float:right;
     background-color: #eeeeee;
-    width: 80px;
+    width:80px;
     height: 35px;
     margin: 0 10px 0 0;
     border: 1.5px solid black;
@@ -229,22 +230,22 @@ table {
 /* 지역, 기간, 분야, 검색 끝 */
 
 
-/* 공연 카테고리 */
+/* 공연 카테고리 */ 
 
 .performancehead {
-    height: 350px;
+    height:310px;
 }
 
 .event_performance {
     background-color: deepskyblue;
-    text-align: center;
-    margin: 30px 0 0 0;
+    text-align:center;
+    margin: 20px 0 0 0;
     height: 45px;
     font-size: 24px;
     font-weight: 500;
 }
 
-.performance__container {
+.performance__container{
     display: flex;
     justify-content: space-between;
 
@@ -254,25 +255,25 @@ table {
     border: 5px solid grey;
     margin: 10px;
     height: 250px;
-    width: 17.5%;
+    width:17.5%;
     padding: 1px;
     display: flex;
-    flex-wrap: wrap;
-    color: black;
+    flex-wrap:wrap;
+    color:black;
 }
 
 img {
-    width: 90%;
-    height: 70%;
-    margin: 7px 7px 0px 7px;
+    width:90%;
+    height:70%;
+    margin:7px 7px 0px 7px;
     overflow: hidden;
 
 }
 
-.txt>h2 {
-    font-size: 12px;
+.txt > h2 {
+    font-size:12px;
     width: 145px;
-    margin: 1px;
+    margin:1px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -280,20 +281,19 @@ img {
 
 .date {
     text-align: center;
-    font-size: 10px;
+    font-size:10px;
 }
 
 .viewlike {
-    float: right;
-    font-size: 10px;
+    float:right;
+    font-size:10px;
     margin: 0 auto;
     padding: 0px 5px 0px 0px;
 }
-
 /* 공연 카테고리 끝, 추가적인 행사/장소 css */
 .event_festival {
-    background-color: rgb(255, 255, 0);
-    text-align: center;
+    background-color: rgb(255,255,0);
+    text-align:center;
     margin: 15px 0 0 0;
     height: 45px;
     padding: 7px 0 0 0;
@@ -301,7 +301,7 @@ img {
     font-weight: 500;
 }
 
-.festival__container {
+.festival__container{
     display: flex;
     justify-content: space-between;
 
@@ -311,15 +311,15 @@ img {
     border: 5px solid blue;
     margin: 6px;
     height: 250px;
-    width: 17.5%;
+    width:17.5%;
     display: flex;
-    flex-wrap: wrap;
-    color: black;
+    flex-wrap:wrap;
+    color:black;
 }
 
 .event_place {
-    background-color: rgb(255, 111, 0);
-    text-align: center;
+    background-color: rgb(255,111,0);
+    text-align:center;
     margin: 15px 0 0 0;
     height: 45px;
     padding: 7px 0 0 0;
@@ -327,45 +327,59 @@ img {
     font-weight: 500;
 }
 
-.place__container {
+
+.place__container{
     display: flex;
     justify-content: space-between;
 
+}
+
+.place__container h2{
+    text-align: center;
+}
+
+.address {
+    text-align: center;
+    font-size:10px;
+    width: 145px;
+    margin:1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .place_image {
     border: 5px solid purple;
     margin: 6px;
     height: 250px;
-    width: 17.5%;
+    width:17.5%;
     display: flex;
-    flex-wrap: wrap;
-    color: black;
+    flex-wrap:wrap;
+    color:black;
 }
 
 #viewandlike {
     margin: 50px;
     padding: 50px;
 }
-
 /* 공연, 행사, 장소 css 끝 */
 
 
 /* 버튼 css, 변경 가능성 매우 높음 */
 .buttoncontainer {
-    width: 800px;
-    display: flex;
+    width:800px;
+    display:flex;
     justify-content: space-around;
     padding: 0 auto;
     margin: 40px 0px 50px 50px;
 }
 
 #floatselector {
-    width: 30px;
-    font-size: 20px;
+    width:30px;
+    font-size:20px;
     background-color: white;
-    font-weight: 800;
-    border: none;
+    font-weight:800;
+    border:none;
 }
 
 
@@ -374,13 +388,12 @@ img {
 /* 검색 결과를 표시하기 위한 배경색 */
 .findlog_color {
     background-color: gold;
-    text-align: center;
+    text-align:center;
     margin: 30px 0 0 0;
     height: 45px;
     font-size: 24px;
     font-weight: 500;
 }
-
 /* 검색 결과를 표시하기 위한 배경색 끝 */
 
 
@@ -404,31 +417,29 @@ img {
 /* 문화정보- 간략 이미지 오른쪽 간략설명 */
 
 .likeandview2 {
-    margin: 8px 0px 0px 0px;
-    float: right;
-    width: 100%;
+    margin:8px 0px 0px 0px;
+    float:right;
+    width:100%;
 }
 
-.likecolor {
+.likecolor  {
     background-color: WHite;
-    color: GREY;
-    float: right;
+    color:GREY;
+    float:right;
 }
 
 .goright {
-    float: right;
+    float:right;
 }
-
 .event-title {
-    height: 50px;
-    clear: both;
+    height:50px;
+    clear:both;
 }
 
 .intro-top {
     display: block;
-    height: 600px;
+    height:600px;
 }
-
 .intro-top .txt-box {
     float: right;
     width: 53%;
@@ -440,8 +451,8 @@ img {
 }
 
 li {
-    list-style: none;
-    text-align: left;
+    list-style:none;
+    text-align:left;
 }
 
 
@@ -454,22 +465,22 @@ li {
     border: 1px solid #ccc;
     background: #f7f7f7;
     position: relative;
-    margin: 0;
+    margin:0;
     text-align: center;
-    float: left;
+    float:left;
 }
 
 .type-box li .type-td {
     padding: 10px;
     width: 100%;
-    min-height: 57px;
+    min-height: 60px;
     font-size: 14px;
-    margin: 0;
-
+    margin:0;
+    
 }
 
 .type-td span {
-    padding: 0px 0px 0px 20px;
+    padding:0px 0px 0px 20px;
 }
 
 
@@ -484,17 +495,17 @@ li {
     color: #fff;
     text-decoration: none;
     position: relative;
-    bottom: 9px;
+    bottom:9px;
 }
 
 /* 문화정보- 간략 이미지 오른쪽 간략설명 끝 */
 
 /* 상세정보 시작 */
 .loca-section {
-    margin-top: 100px;
+    margin-top:100px;
 }
 
-.common-section h2 {
+.common-section h2{
     text-align: center;
     margin-bottom: 50px;
 }
@@ -503,7 +514,6 @@ li {
     text-align: center;
     position: relative;
 }
-
 /* 상세정보 끝 */
 
 
@@ -514,31 +524,30 @@ li {
     margin: 50px 0px 100px 0px;
 }
 
-.view-btn>.prev-btn {
-    border-right: 1px solid grey;
-    border-bottom: 1px solid grey;
+.view-btn > .prev-btn {
+   border-right: 1px solid grey;
+   border-bottom: 1px solid grey;
 }
 
-.view-btn>.next-btn {
+.view-btn > .next-btn {
     text-align: right;
     border-bottom: 1px solid grey;
-}
+ }
 
-.view-btn>.prev-btn .txt {
+.view-btn > .prev-btn .txt {
     padding-left: 20px;
     margin-right: 35px;
     padding-right: 1.75em;
     border-right: 1px solid #ccc;
 }
 
-.view-btn>.next-btn .txt {
+.view-btn > .next-btn .txt {
     padding-right: 20px;
     margin-left: 45px;
     padding-left: 1.75em;
     border-left: 1px solid #ddd;
 }
-
-.view-btn>div>a span.placeholder_color {
+.view-btn > div > a span.placeholder_color {
     display: inline-block;
     width: 60%;
     overflow: hidden;
@@ -547,12 +556,12 @@ li {
     vertical-align: middle;
 }
 
-.view-btn>div .txt {
+.view-btn > div .txt {
     display: inline-block;
     vertical-align: middle;
 }
 
-.view-btn>div {
+.view-btn > div {
     float: left;
     width: 50%;
     padding: 20px 0px;
@@ -578,15 +587,14 @@ li {
 
 /* 장소 css 간략설명 변경 시작 */
 .event-title2 {
-    padding: 10px 0px 0px 0px;
-    height: 50px;
-    clear: both;
+    padding:30px 0px 50px 0px;
+    height:50px;
+    clear:both;
 }
 
 .type-box2 {
-    padding: 15px 0px 0px 0px;
+    padding:15px 0px 0px 0px;
 }
-
 .type-box2 .type-th {
     left: 0;
     top: 0;
@@ -596,9 +604,9 @@ li {
     border: 1px solid #ccc;
     background: #f7f7f7;
     position: relative;
-    margin: 0;
+    margin:0;
     text-align: center;
-    float: left;
+    float:left;
 }
 
 .type-box2 li .type-td {
@@ -606,57 +614,21 @@ li {
     width: 100%;
     min-height: 75px;
     font-size: 14px;
-    margin: 0;
+    margin:0;   
 }
 
 /* 장소 css 간략설명 변경 끝 */
 
-#side__bar {
-    width: 200px;
-    border: 1px solid black;
-    height: 800px;
-    position: sticky;
-    left: 0;
-    top: 80px;
+/* like button, dib button */
+
+#like-button {
+    background-color: white;
+    border:none;
+    font-size:17px;
 }
 
-#big__container {
-    display: flex;
-}
-
-a {
-    text-decoration: none;
-}
-
-li {
-    list-style: none;
-}
-
-.sidebar__bigMenu {
-    text-align: center;
-    background-color: black;
-    color: white;
-    height: 50px;
-    line-height: 50px;
-    margin-bottom: 10px;
-}
-
-.sidebar__midMenu {
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-}
-
-.sidebar__smallMenu {
-    margin-left: 20px;
-    margin-top: 10px;
-    font-size: 14px;
-}
-
-#width {
-    width: 20%;
-}
-
-#centerGo {
-    width: 10%;
+#dib {
+    background-color: white;
+    border:none;
+    font-size:19px;
 }
