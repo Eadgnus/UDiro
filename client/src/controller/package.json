@@ -1,0 +1,18 @@
+{
+  "name": "controller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "map_modal.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node map_inner.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.22",
+    "xml-js": "^1.6.11"
+  }
+}
